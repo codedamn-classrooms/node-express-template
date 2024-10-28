@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
 app.listen(
 	process.env.PUBLIC_PORT || 1337,
 	console.log(
-		`Express server running on port ${process.env.PUBLIC_PORT}, can be publicly on https://${process.env.PUBLIC_HOSTNAME}`
+		`Express server running on port ${process.env.PUBLIC_PORT}, can be publicly accessed via https://${process.env.PUBLIC_HOSTNAME}`
 	)
 )
